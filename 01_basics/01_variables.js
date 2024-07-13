@@ -7,11 +7,17 @@ let accountState;
 // accountId = 2 // not allowed
 accountEmail = "31vanshshah@gmail.com";
 accountPassword = "555555";
-accountCity = "Ahmedabad";
+accountCity = "Ahmedabad" ;
 
 //console.log(accountId);
 
 /*
 prefer not to use var because of issue in block scope and functional scope
 */
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
+console.table([
+  accountId,
+  accountEmail,
+  accountPassword,
+  accountCity,
+  accountState,
+]);
