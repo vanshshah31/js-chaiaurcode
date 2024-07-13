@@ -4,7 +4,7 @@
 
 console.log(3 + 3); // code readability should be high
 
-console.log("Hitesh");
+console.log("Vansh");
 
 let name = "hitesh";
 let age = 18;
@@ -21,4 +21,5 @@ let state;
 
 // object
 
-console.log(typeof "Vansh");
+console.log(typeof null); //object
+console.log(typeof undefined); // undefined
