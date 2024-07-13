@@ -2,13 +2,23 @@
 
 // alert( 3 + 3) // we are using nodejs, not browser
 
-console.log(3 
-    +
-     3) // code readability should be high
+console.log(3 + 3); // code readability should be high
 
-console.log("Hitesh")
+console.log("Hitesh");
 
+let name = "hitesh";
+let age = 18;
+let isLoggedIn = false;
+let state;
 
-let name = "hitesh"
-let age = 18
-let isLoggedIn = false
+// number ==> (2)^53
+// bigint
+// string ==> ""
+// boolean  => true/false
+// null ==> stand alone value
+// undefined =>  value not yet defined;
+// symbol => unique
+
+// object
+
+console.log(typeof "Vansh");
