@@ -51,10 +51,16 @@ let str3 = str1 + str2;
 // console.log((3 = 4) * 5 % 3);
 
 //see operator precedence as well
-console.log(+true);
+//console.log(+true);
 //console.log(true+); gives error
-console.log(+"");
+//console.log(+"");
 
+let num1, num2, num3;
+num1 = num2 = num3 = 2 + 2;
 
-let num1 , num2 , num3
-num1=num2=num3 = 2+2
+let gameCounter = 100;
+// gameCounter++;
+++gameCounter;
+console.log(gameCounter);
+// read from prefix and postfix js mdn
+// link to study type-conversion:// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
