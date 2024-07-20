@@ -33,6 +33,30 @@ const myFunction = function () {
   console.log("Hello World");
 };
 
-console.log(typeof bigNumber);
+//onsole.log(typeof bigNumber);
 //READ: https://262.ecma-international.org/5.1/#sec-11.4.3
 // assignment: make comments of each datatypes and what they return
+
+// -----------------x---x---x----------------
+
+// Memory--> Stack(Primitive,we get copy) , Heap(Non-primitive & Reference type)
+
+//stack
+let myYoutubename = "vansh.shah_31";
+let anotherName = myYoutubename;
+anotherName = "olaamigo";
+// console.log(anotherName);
+// console.log(myYoutubename);
+
+// heap
+let userOne = {
+  email: "user.google.com",
+  upi: "user@ybl",
+};
+
+let userTwo = userOne;
+
+userTwo.email = "vansh@gmail.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
