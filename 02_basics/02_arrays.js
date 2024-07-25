@@ -10,5 +10,10 @@ const dc_heros = ["Superman", "Flash", "Batman"];
 // console.log(allHeros);
 
 const all_new_heros = [...marvel_heros, ...dc_heros];
-console.log(all_new_heros); //same as concat, PREFFERED over CONCAT
+//console.log(all_new_heros); //same as concat, PREFFERED over CONCAT
 
+const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]];
+const real_another_array = another_array.flat(Infinity);
+//console.log(real_another_array);
+
+Array
